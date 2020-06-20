@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/nameCol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+
+                android:background="#1870DC"
+                android:gravity="center"
+                android:text=" Imię "
+                android:textColor="#FFFFFF"></TextView>
+
+            <TextView
+                android:id="@+id/surnameCol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="#1870DC"
+                android:gravity="center"
+                android:text=" Nazwisko "
+                android:textColor="#FFFFFF"></TextView>
+
+            <TextView
+                android:id="@+id/addressCol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="#1870DC"
+                android:gravity="center"
+                android:text=" Adres "
+                android:textColor="#FFFFFF"></TextView>
+
+            <TextView
+                android:id="@+id/meterNoCol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:background="#1870DC"
+                android:gravity="center"
+                android:text=" Numer licznika "
+                android:textColor="#FFFFFF"></TextView>
+
+            <TextView
+                android:id="@+id/stateCol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#1870DC"
+                android:gravity="center"
+                android:text=" Stan licznika "
+                android:textColor="#FFFFFF"></TextView>
+
+        </TableRow>
+    </TableLayout>
+
